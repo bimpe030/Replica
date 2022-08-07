@@ -1,0 +1,157 @@
+@font-face {
+    font-family: Averta;
+    src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Averta, sans-serif;
+}
+
+.header{
+    background-image: url("https://zuri.team/img/hero-bg.svg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.header-text a{
+    text-decoration: none;
+    color: #E7332B;
+    background-color: transparent;
+}
+
+.header-text a:hover {
+    text-decoration: none;
+    color: #eb5850;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+
+.logo{
+    margin: auto;
+    display: flex;
+    padding-top: 69px;
+    margin-bottom: 69px;
+}
+
+.logo img {
+    margin: auto;
+}
+
+.header-text{
+    padding: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-text h2{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 36px;
+    color: #514949;
+}
+
+.header-text p{
+    text-align: center;
+    line-height: 24px;
+    opacity: 0.9;
+}
+
+.header-btn{
+    margin-top: 92px;
+}
+
+.header-btn button{
+    padding: 11px 28px;
+}
+
+.header-btn .bg-danger:hover{
+    background-color: white !important;
+    color: #E7332B !important;
+}
+
+section .part{
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.part-content{
+    padding-top: 0 !important;
+}
+
+.part-content .heading {
+    font-size: 14px;
+    line-height: 24px;
+    color: #E7332B;
+    margin-top: 141px;
+}
+
+.part-content p.slogan {
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #514949;
+    margin-top: 8px;
+    margin-bottom: 64px;
+}
+
+.program-card {
+    width: 100%;
+    background-color: #FFFAFA;
+    padding: 61px 47px 82px 36px;
+    text-align: justify-all;
+}
+
+.part-card-zed {
+    position: relative;
+    z-index: 1;
+}
+
+img.card-bg-svg-1 {
+    width: 100%;
+    position: absolute;
+    left: -120px;
+    top: -75px;
+    z-index: -1;
+}
+
+img.card-bg-svg-2 {
+    width: 90%;
+    position: absolute;
+    right: -120px;
+    top: -75px;
+    z-index: -1;
+}
+
+.part-card img {
+    margin-bottom: 48px;
+}
+
+.part-card p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+.part-card h3 a {
+    font-size: 16px;
+    line-height: 24px;
+    color: #E7332B;
+    opacity: 0.9;
+}
+
+.container-fluid {
+    max-width: 1440px !important;
+}
+
+.my-container {
+    max-width: 1240px !important;
+}
