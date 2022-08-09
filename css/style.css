@@ -241,9 +241,16 @@ footer hr {
         margin-bottom: 50px;
     }
 
-    .header-btn .btn{
-        margin-bottom: 1.5rem;
+    button.btn{
+        display: block;
+         margin: 0 auto !important;
+        justify-content: center; 
     }
+
+
+    /* .header-btn .btn{
+        margin-bottom: 1.5rem;
+    } */
 
     h3.heading {
         margin-top: 60px !important;
